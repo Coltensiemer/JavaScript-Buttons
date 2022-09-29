@@ -39,6 +39,7 @@ const restButton = document.getElementById('btn-reset');
             arrayReset[i].style.color="black";
         }     
         restButton.onclick = function() { count = 0; counterNum.innerHTML = count;}
+        
     }
     ); 
      
@@ -76,7 +77,15 @@ resetME.onclick = function() { count = 0; counterNum.innerHTML = count;}
 document.querySelector('.toggle-button').addEventListener('click', ()=> { 
     document.body.classList.toggle('dark')
     document.getElementById("darkmode").style.opacity ="1";
+    let i = 1; 
+    let j=0; 
+
+     
+
+
+
     document.getElementById("lightmode").style.opacity= "0"; 
+   
     
 
 })
