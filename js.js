@@ -76,23 +76,17 @@ resetME.onclick = function() { count = 0; counterNum.innerHTML = count;}
 
 document.querySelector('.toggle-button').addEventListener('click', ()=> { 
     document.body.classList.toggle('dark')
-    document.getElementById("darkmode").style.opacity ="1";
-    let i = 1; 
-    let j=0; 
-
-     
-
-
-
-    document.getElementById("lightmode").style.opacity= "0"; 
-   
-    
+    document.body.classList.toggle('lightmode'); 
+ 
 
 })
 
+function toggleHide (){
+    // const lightMode = document.getElementById('lightmode'); 
+    // lightMode.classList.toggle('lightMode'); 
 
 
-
+}
 
 
     

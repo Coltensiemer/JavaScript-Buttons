@@ -198,3 +198,9 @@ section>button,
 #counter-reset {
   background-color: var(--background-color-reset);
 }
+
+body.lightmode { 
+  opacity: 0;
+ 
+
+}
