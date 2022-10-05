@@ -81,12 +81,12 @@ document.querySelector('.toggle-button').addEventListener('click', ()=> {
 
 })
 
-function toggleHide (){
-    // const lightMode = document.getElementById('lightmode'); 
-    // lightMode.classList.toggle('lightMode'); 
+// function toggleHide (){
+//     // const lightMode = document.getElementById('lightmode'); 
+//     // lightMode.classList.toggle('lightMode'); 
 
 
-}
+// }
 
 
     
